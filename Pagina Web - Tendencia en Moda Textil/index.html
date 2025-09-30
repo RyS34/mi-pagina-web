@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tendencias de Moda Textil</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1><i class="fa-solid fa-shirt"></i> Tendencias de Moda Textil</h1>
+    <nav>
+      <a href="#" data-section="inicio"><i class="fa-solid fa-house"></i> Inicio</a>
+      <a href="#" data-section="productos"><i class="fa-solid fa-tags"></i> Productos</a>
+      <a href="#" data-section="proveedores"><i class="fa-solid fa-truck"></i> Proveedores</a>
+      <a href="#" data-section="quienes"><i class="fa-solid fa-users"></i> Quiénes Somos</a>
+      <a href="#" data-section="contacto"><i class="fa-solid fa-envelope"></i> Contacto</a>
+    </nav>
+    <button id="darkModeToggle"><i class="fa-solid fa-moon"></i></button>
+  </header>
+
+  <!-- Inicio -->
+  <section id="inicio" class="section active-section">
+    <h2><i class="fa-solid fa-fire"></i> Productos Más Requeridos</h2>
+    <p>Haz click en cada producto para conocer más detalles.</p>
+    <div class="flip-container">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80"
+              alt="Vestido de Verano">
+            <h3>Vestido de Verano</h3>
+          </div>
+          <div class="flip-card-back">
+            Ligero, fresco y colorido. Perfecto para la temporada actual. Ideal para días soleados y reuniones casuales.
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80"
+              alt="Chaqueta Oversize">
+            <h3>Chaqueta Oversize</h3>
+          </div>
+          <div class="flip-card-back">
+            Un clásico que vuelve con fuerza en las pasarelas internacionales. Combina comodidad con estilo urbano
+            moderno.
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80"
+              alt="Accesorios modernos">
+            <h3>Accesorios Modernos</h3>
+          </div>
+          <div class="flip-card-back">
+            Collares, bolsos y más que marcan estilo en el mundo. Complementa tu look con los detalles que importan.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Productos -->
+  <section id="productos" class="section">
+    <h2><i class="fa-solid fa-tags"></i> Todos los Productos</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80"
+          alt="Vestido de verano">
+        <h3><i class="fa-solid fa-sun"></i> Vestido de Verano</h3>
+        <p>Ligero, fresco y colorido. Perfecto para la temporada actual.</p>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80"
+          alt="Chaqueta Oversize">
+        <h3><i class="fa-solid fa-user-astronaut"></i> Chaqueta Oversize</h3>
+        <p>Un clásico que vuelve con fuerza en las pasarelas internacionales.</p>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80"
+          alt="Accesorios modernos">
+        <h3><i class="fa-solid fa-gem"></i> Accesorios Modernos</h3>
+        <p>Collares, bolsos y más que marcan estilo en el mundo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proveedores -->
+  <section id="proveedores" class="section">
+    <h2><i class="fa-solid fa-handshake"></i> Proveedores Destacados</h2>
+    <div class="proveedores-container">
+      <div class="proveedor-card">
+        <h3>María López</h3>
+        <p>Distribuidora de Telas - Perú</p>
+        <p>📞 +51 912 345 678</p>
+        <p>✉️ maria.lopez@mail.com</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Carlos Sánchez</h3>
+        <p>Accesorios y Complementos - España</p>
+        <p>📞 +34 612 345 789</p>
+        <p>✉️ carlos.sanchez@mail.es</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Luisa Fernández</h3>
+        <p>Moda Sostenible - México</p>
+        <p>📞 +52 55 1234 5678</p>
+        <p>✉️ luisa.fernandez@mail.mx</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Juan Pérez</h3>
+        <p>Textiles Finos - Colombia</p>
+        <p>📞 +57 311 234 5678</p>
+        <p>✉️ juan.perez@mail.co</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Ana Torres</h3>
+        <p>Ropa Casual - Argentina</p>
+        <p>📞 +54 9 11 1234 5678</p>
+        <p>✉️ ana.torres@mail.ar</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Diego Ramírez</h3>
+        <p>Accesorios de Moda - Chile</p>
+        <p>📞 +56 9 8765 4321</p>
+        <p>✉️ diego.ramirez@mail.cl</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Carolina Gómez</h3>
+        <p>Moda Infantil - Perú</p>
+        <p>📞 +51 987 654 321</p>
+        <p>✉️ carolina.gomez@mail.com</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Ricardo Herrera</h3>
+        <p>Ropa Deportiva - México</p>
+        <p>📞 +52 33 1234 5678</p>
+        <p>✉️ ricardo.herrera@mail.mx</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Elena Díaz</h3>
+        <p>Calzado y Complementos - España</p>
+        <p>📞 +34 622 334 556</p>
+        <p>✉️ elena.diaz@mail.es</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Fernando Castro</h3>
+        <p>Moda Urbana - Colombia</p>
+        <p>📞 +57 310 987 6543</p>
+        <p>✉️ fernando.castro@mail.co</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Patricia Morales</h3>
+        <p>Ropa Elegante - Argentina</p>
+        <p>📞 +54 9 11 8765 4321</p>
+        <p>✉️ patricia.morales@mail.ar</p>
+      </div>
+      <div class="proveedor-card">
+        <h3>Javier Ortiz</h3>
+        <p>Accesorios Vintage - Chile</p>
+        <p>📞 +56 9 1234 5678</p>
+        <p>✉️ javier.ortiz@mail.cl</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- QUIÉNES SOMOS -->
+  <section id="quienes" class="section">
+    <h2><i class="fa-solid fa-id-card"></i> Quiénes Somos</h2>
+    <div class="quienes-container">
+      <p>Somos <span class="highlight">una empresa innovadora</span> dedicada a mostrar las últimas tendencias de moda
+        textil, conectando marcas, diseñadores y clientes alrededor del mundo.</p>
+
+      <p>Nos enfocamos en <span class="highlight">calidad, creatividad y estilo</span> para ofrecer productos que
+        enamoren a cada usuario.</p>
+
+      <p>Navega y descubre nuestra selección de <span class="highlight">productos exclusivos</span> y proveedores de
+        confianza.</p>
+
+      <div class="valores">
+        <div class="valor-card">
+          <i class="fa-solid fa-star"></i>
+          <h3>Excelencia</h3>
+          <p>Nos aseguramos de que cada producto cumpla con los más altos estándares de calidad.</p>
+        </div>
+        <div class="valor-card">
+          <i class="fa-solid fa-lightbulb"></i>
+          <h3>Creatividad</h3>
+          <p>Buscamos siempre innovar en tendencias y diseños para ofrecer algo único.</p>
+        </div>
+        <div class="valor-card">
+          <i class="fa-solid fa-heart"></i>
+          <h3>Pasión</h3>
+          <p>Amamos la moda y transmitimos esa pasión en cada detalle que compartimos.</p>
+        </div>
+      </div>
+
+      <p>Únete a nuestra comunidad y mantente actualizado con lo último en <span class="highlight">tendencias, estilos y
+          novedades</span> en el mundo de la moda textil.</p>
+    </div>
+  </section>
+
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section">
+    <h2><i class="fa-solid fa-paper-plane"></i> Contacto</h2>
+    <div class="contact-container">
+      <form id="contactForm">
+        <input type="text" id="nombre" placeholder="👤 Tu nombre">
+        <input type="email" id="email" placeholder="✉️ Tu correo">
+        <textarea id="mensaje" placeholder="📝 Escribe tu mensaje"></textarea>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i> Enviar</button>
+      </form>
+      <p id="formMsg"></p>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 Tendencias de Moda Textil</p>
+  </footer>
+
+  <button id="btnTop"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+
+</html>
